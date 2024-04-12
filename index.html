@@ -1,47 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotoblog</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fotoblog</title>
-  <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header class="container">
+        <nav>
+          <img src="./assets/camera.svg" alt="Imagem da logomarca" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet" />
-</head>
+          <ul>
+            <li>Home</li>
+            <li class="active">Galeria</li>
+          </ul>
+        </nav>
 
-<body>
-  <div id="app">
-    <header class="container">
-      <nav>
-        <img src="./assets/camera.svg" alt="Imagem da logomarca" />
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Pesquise por imagens e coleções</label>
+            <input id="search" type="text" placeholder="Pesquise por imagens e coleções" >
+          </div>
+        </form>
 
-        <ul>
-          <li>Home</li>
-          <li class="active">Galeria</li>
-        </ul>
-      </nav>
+        <img
+          class="avatar"
+          src="https://randomuser.me/api/portraits/women/5.jpg"
+          alt="Imagem de uma mulher"
+        />
+      </header>
+      <main>
+        <div class="container">
+          <h1>Galeria</h1>
 
-      <form>
-        <div class="input-wrapper">
-          <label for="search">Pesquise por imagens e coleções</label>
-          <input id="search" type="text" placeholder="Pesquise por imagens e coleções">
+          <section class="gallery">
+            <figure class="item">
+              <img src="assets/01.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/02.svg" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/03.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/04.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/05.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/06.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/07.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/08.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item">
+              <img src="assets/09.svg" alt="" />
+              <figcaption class="details">
+                <h2>Organização e grids</h2>
+                <div class="tags">
+                  <span>tag</span>
+                </div>
+              </figcaption>
+            </figure>
+          </section>
         </div>
-      </form>
-
-      <img class="avatar" src="https://randomuser.me/api/portraits/women/5.jpg" alt="Imagem de uma mulher" />
-    </header>
-    <main>
-      <div class="container">main</div>
-    </main>
-    <footer class="container">
-      <p>© 2023 - Rocketseat Explorer</p>
-    </footer>
-  </div>
-</body>
-
+      </main>
+      <footer class="container">
+        <p>© 2023 - Rocketseat Explorer</p>
+      </footer>
+    </div>
+  </body>
 </html>
